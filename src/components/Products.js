@@ -16,7 +16,7 @@ function Products(props) {
         axios.get('https://dummyjson.com/products')
         .then(res => {
             setProducts(res.data.products)
-            let allCategories = res.data.products.map((item,i) => {
+            let allCategories = res.data.products.map((item,j) => {
                 return item.category
             })
 
