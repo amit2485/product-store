@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+#header{
+  width: 100%;
+  background-color: grey;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  height:80px;
+  align-items: center;
+}
+
+.nav_link{
+  text-decoration: none;
+  width:100px;
+  padding:5px 5px;
+  border-radius: 5px;
+  text-align: center;
+ 
+  background-color: aqua;
+}
+
+.nav_link:hover{
+  border: 1px solid blue;
+}
+
+#products{
+  padding:30px 40px;
+}
+
+.single_card{
+  padding:20px 10px;
+}
+
+#login_btn{
+  border: none;
+  width:100px;
+  padding:5px 5px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: aqua;
+  color:blue;
+}
+
+#login_btn:hover{
+  border: 1px solid blue;
+}
